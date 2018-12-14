@@ -1,7 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
-import data from '../data/time.json'
+import data from '../data/abb-news.json'
 
 const Abc = (props) => (
   <Layout>

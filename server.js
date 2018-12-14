@@ -9,18 +9,13 @@ const nextApp = next({ dev })
 const nextHandler = nextApp.getRequestHandler()
 
 const newsApi = require('./fetchRequest.js'); //example newsApi(country, sources, path)
+var cron = require('node-cron');
 
-
-io.on('connection', socket => {
-	// escuchamos el evento `message`
-	socket.on('message', (datas) => {
-		// guardamos el mensaje en nuestra "DB"
-		const data = { zwierze: 'Koal a' }
-		// enviamos el mensaje a todos los usuarios menos a quién los envió
-		socket.broadcast.emit('message', data)
-		console.log(connected)
-	})
-})
+//execute every 1 min //https://crontab.guru/#15_14_1_*_*
+cron.schedule('*/1 * * * *', function(){
+	newsApi.newsAPIFetch('time', './data/time.json');
+	console.log('working!!!!')
+});
 
 nextApp.prepare()
 .then(() => {
@@ -31,7 +26,6 @@ nextApp.prepare()
   })
 
   app.get('*', (req, res) => {
-		newsApi.newsAPIFetch('time', './data/time.json');
     return nextHandler(req, res)
   })
 

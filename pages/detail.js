@@ -23,17 +23,8 @@ const Post =  (props) => (
 
 
 Post.getInitialProps = async function(context) {
-    console.log('context.query: ', context.query )
-
   const { title } = context.query //title from server.js
-  //console.log('DATA ID ', title)
-  console.log('props:', context.query)
-
   const single = data.filter(item => item.title == title);
-
-  //socket.on('AbcNews', data => cb(null, data));
-
-
 
   return {single}
 }
