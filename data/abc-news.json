@@ -1,0 +1,67 @@
+[
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": null,
+    "title": "Mattis reveals Russian government attempted to interfere in US midterm elections earlier this month - ABC News",
+    "description": "ABC News Mattis reveals Russian government attempted to interfere in US midterm elections earlier this month ABC News U.S. Defense Secretary James Mattis revealed that the Russian government attempted to interfere in the U.S. midterm elections last month. Rus…",
+    "url": "https://abcnews.go.com/International/mattis-reveals-russian-government-attempted-interfere-us-midterm/story?id%3D59551008",
+    "urlToImage": null,
+    "publishedAt": "2018-12-02T02:42:00Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "US, China reach 90-day ceasefire on tariffs in trade dispute",
+    "description": "Trump-Xi talks produce a 90-day ceasefire in US-China trade dispute.",
+    "url": "https://abcnews.go.com/Politics/wireStory/world-waits-trump-xi-dinner-brings-trade-peace-59539510",
+    "urlToImage": "https://s.abcnews.com/images/Politics/WireAP_36f05e47d8b44b5eb5aec751ff9168d1_16x9_992.jpg",
+    "publishedAt": "2018-12-02T03:10:00Z",
+    "content": "Interested in Trump Administration? Add Trump Administration as an interest to stay up to date on the latest Trump Administration news, video, and analysis from ABC News. The United States and China reached a 90-day ceasefire in a trade dispute that has rattl… [+4841 chars]"
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "Life is slowly settling down in Alaska after major quake",
+    "description": "Life is slowly settling down in Alaska following a powerful earthquake that rattled buildings, disrupted power and caused heavy damage to the only highway that goes north of Anchorage",
+    "url": "https://abcnews.go.com/Technology/wireStory/life-slowly-settling-alaska-major-quake-59553616",
+    "urlToImage": "https://s.abcnews.com/images/US/WireAP_387b1d62dd2a4f73aaddeb2162aa2e99_16x9_992.jpg",
+    "publishedAt": "2018-12-02T04:25:00Z",
+    "content": "Life is slowly settling down in Alaska following a powerful earthquake that rattled buildings, disrupted power and caused heavy damage to the only highway that goes north of Anchorage. Still, hundreds of aftershocks frayed nerves Saturday as people worried ab… [+3170 chars]"
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "ABC News",
+    "title": "WATCH: Defense Secretary quotes Nike as saying that when the president asks you to serve 'Just Do It’",
+    "description": "Defense Secretary James Mattis said he accepted the job under President Trump because of his love for troops and the U.S. Constitution.",
+    "url": "https://abcnews.go.com/US/video/defense-secretary-quotes-nike-president-asks-serve-59550914",
+    "urlToImage": "https://s.abcnews.com/images/US/181201_abcnl_defense_secretary_hpMain_16x9_992.jpg",
+    "publishedAt": "2018-12-02T04:31:09Z",
+    "content": "Now Playing: Defense Secretary quotes Nike over president's request to serve Now Playing: Remembering the 41st president in Houston Now Playing: President Trump's comments on the passing of George H.W. Bush Now Playing: A look back at the Bush presidencies No… [+1134 chars]"
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "Leftist leader takes reins in Mexico vowing to help poor",
+    "description": "Leftist politician Andres Manuel Lopez Obrador has assumed Mexico's presidency promising to profoundly transform Latin America's second-biggest economy and to lead a government free of corruption",
+    "url": "https://abcnews.go.com/International/wireStory/leftist-leader-takes-reins-mexico-vowing-poor-59554195",
+    "urlToImage": "https://s.abcnews.com/images/International/WireAP_34204fe4ae6a4897bf02a9dca5987d29_16x9_992.jpg",
+    "publishedAt": "2018-12-02T05:10:18Z",
+    "content": "Leftist politician Andres Manuel Lopez Obrador assumed Mexico 's presidency with a promise to profoundly transform Latin America's second-biggest economy and to lead a government free of corruption. Seemingly tireless at age 65, Lopez Obrador breezed through … [+5491 chars]"
+  }
+]
