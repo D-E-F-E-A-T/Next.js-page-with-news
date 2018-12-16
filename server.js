@@ -12,7 +12,7 @@ const newsApi = require('./fetchRequest.js'); //example newsApi(country, sources
 var cron = require('node-cron');
 
 //execute every 1 min //https://crontab.guru/#15_14_1_*_*
-cron.schedule('*/1 * * * *', function(){
+cron.schedule('*/3 * * * *', function(){
 	newsApi.newsAPIFetch('time', './data/time.json');
 	console.log('working!!!! -- hellow from cron autostart')
 });

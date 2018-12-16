@@ -10,7 +10,7 @@ function fetchReq(source, path) {
     //country: 'us',
     sources: source,
     language: 'en',
-    pageSize: 2
+    pageSize: 20
   }).then(response => {
         console.log('hellow from fetchRequest')
         if(response.status == "ok") {
@@ -22,6 +22,7 @@ function fetchReq(source, path) {
 
                 while(activeObj.length > i) {
                     if(array.some(item=> {
+                        console.log(item.title, '===', activeObj[i].title)
                         return item.title === activeObj[i].title
                     })) {
                         console.log('NO new message')
@@ -32,6 +33,7 @@ function fetchReq(source, path) {
 
                         fs.writeFile(path, JSON.stringify(json, null, 2), function(err){
                           if (err) throw err;
+                          console.log('======,',JSON.stringify(json, null, 2),'======,')
                           console.log('The "data to append" was appended to file!');
                         });
                     }
