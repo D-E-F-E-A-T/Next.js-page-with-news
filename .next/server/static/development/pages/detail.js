@@ -313,12 +313,10 @@ function (_React$Component) {
                 _context$query = context.query, title = _context$query.title, source = _context$query.source;
                 console.log(source);
                 if (source == 'Abc_News') datas = _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__;
-                single = datas.filter(function (item) {
+                single = _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__.filter(function (item) {
                   return item.title == title;
                 });
-                return _context.abrupt("return", {
-                  single: single
-                });
+                return _context.abrupt("return", {});
 
               case 5:
               case "end":
@@ -342,16 +340,36 @@ function (_React$Component) {
     _classCallCheck(this, Post);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Post).call(this, props));
+    console.log(props.url.query, 'props');
+    var _props$url$query = props.url.query,
+        title = _props$url$query.title,
+        source = _props$url$query.source;
+    var datas;
+    if (source == 'Abc_News') datas = _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__;
     _this.state = {
-      single: _this.props.single
+      single: datas
     };
+    console.log('from constructor', _this.state.single);
     return _this;
   }
 
   _createClass(Post, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      console.log(this.props.url.query, 'props');
+      var _this$props$url$query = this.props.url.query,
+          title = _this$props$url$query.title,
+          source = _this$props$url$query.source;
+      var datas;
+      if (source == 'Abc_News') datas = _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__;
+      this.setState({
+        single: datas
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
-      console.log('this', this.state);
+      console.log(this.state);
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, this.state.single[0].title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, this.state.single[0].description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
         key: this.state.single[0].source.id
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", {

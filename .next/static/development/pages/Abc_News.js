@@ -10084,7 +10084,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/Abc_News.js ***!
   \*********************************/
@@ -10109,5 +10109,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=Abc_News.js.map
