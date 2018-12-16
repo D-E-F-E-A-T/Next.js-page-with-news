@@ -9117,7 +9117,7 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __NEXT_REGISTER_PAGE('/_app', function() {
-module.exports = __webpack_require__(/*! C:\React_SEO\Api-News-NextJS.0.1 — version0.1\node_modules\next\dist\pages\_app.js */"./node_modules/next/dist/pages/_app.js");
+module.exports = __webpack_require__(/*! D:\github\API-NEWS-NEXTJS-test2\node_modules\next\dist\pages\_app.js */"./node_modules/next/dist/pages/_app.js");
 
 return { page: module.exports.default }});
 

@@ -2,7 +2,6 @@ import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
 import data from '../data/time.json'
-import io from 'socket.io-client';
 
 import { Component } from 'react'
 

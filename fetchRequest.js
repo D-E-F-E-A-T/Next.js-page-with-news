@@ -10,7 +10,7 @@ function fetchReq(source, path) {
     //country: 'us',
     sources: source,
     language: 'en',
-    pageSize: 11
+    pageSize: 2
   }).then(response => {
     console.log('hellow from fetchRequest')
     if(response.status == "ok") {
@@ -19,23 +19,28 @@ function fetchReq(source, path) {
           var activeObj = response.articles;
           let i = 0;
 
-          while(activeObj.length > i) {
-              if(!array.some(item=> item.title === activeObj[i].title)) json.unshift(activeObj[i])
-              i++
-          }
-          console.log(json.length)
-          function remove_duplicates_es6(json) {
-                let s = new Set(json);
-                let it = s.values();
-                return Array.from(it);
+
+        while(activeObj.length > i) {
+            if(array.some(item=> {
+                return item.title === activeObj[i].title
+
+            })) {
+                console.log('NO new message')
+            } else {
+                console.log('NEW message available')
+
+                json.unshift(activeObj[i])
+
+                fs.writeFile(path, JSON.stringify(json, null, 2), function(err){
+                  if (err) throw err;
+                  console.log('The "data to append" was appended to file!');
+                });
+            }
+
+            i++
+
         }
 
-          fs.writeFile(path, JSON.stringify(remove_duplicates_es6(json), null, 2), function(err){
-              //console.log(json, 'json')
-            if (err) throw err;
-            console.log('The "data to append" was appended to file!');
-          });
-          console.log('node background',array.length, ':', path)
       })
     };
   });

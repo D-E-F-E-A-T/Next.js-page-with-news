@@ -1,7 +1,7 @@
 const app = require('express')()
 const next = require('next')
 const server = require('http').Server(app)
-const io = require('socket.io')(server)
+//const io = require('socket.io')(server)
 
 const dev = process.env.NODE_ENV !== 'production'
 
@@ -14,7 +14,7 @@ var cron = require('node-cron');
 //execute every 1 min //https://crontab.guru/#15_14_1_*_*
 cron.schedule('*/1 * * * *', function(){
 	newsApi.newsAPIFetch('time', './data/time.json');
-	console.log('working!!!!')
+	console.log('working!!!! -- hellow from cron autostart')
 });
 
 nextApp.prepare()
@@ -26,6 +26,7 @@ nextApp.prepare()
   })
 
   app.get('*', (req, res) => {
+	  //newsApi.newsAPIFetch('time', './data/time.json');
     return nextHandler(req, res)
   })
 
