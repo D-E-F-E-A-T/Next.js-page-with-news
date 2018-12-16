@@ -1,7 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
-import data from '../data/abb-news.json'
+import data from '../data/Abc_News.json'
 
 const Abc = (props) => (
   <Layout>
@@ -9,7 +9,7 @@ const Abc = (props) => (
     <ul>
       {props.data.map((item) => (
         <li>
-          <Link as={`/abc/${item.title}`} href={`/detail?title=${item.title}`}>
+          <Link as={`/Abc_News/${item.title}`} href={`/detail?title=${item.title}`}>
             <a>{item.title}</a>
           </Link>
         </li>

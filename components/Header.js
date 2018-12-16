@@ -14,7 +14,7 @@ const Header = () => (
     </Link>
     <ul className="nav justify-content-center">
       <li className="nav-item">
-        <Link className="nav-black-list nav-link disabled hover-main-links" as={`/news/naw`}  href={`/AbcNews/naw`}><a>ABC News</a></Link>
+        <Link className="nav-black-list nav-link disabled hover-main-links" as={`/Abc_News`}  href={`/Abc_News`}><a>ABC News</a></Link>
       </li>
       <li className="nav-item">
         <Link className="nav-black-list nav-link disabled hover-main-links" to="/BBC_News">BBC News</Link>

@@ -1,6 +1,8 @@
 import Layout from '../components/MyLayout.js'
 import fetch from 'isomorphic-unfetch'
-import data from '../data/time.json'
+import time from '../data/time.json'
+import abc_News from '../data/Abc_News.json'
+
 
 const Post =  (props) => (
     <Layout>
@@ -23,10 +25,21 @@ const Post =  (props) => (
 
 
 Post.getInitialProps = async function(context) {
-  const { title } = context.query //title from server.js
-  const single = data.filter(item => item.title == title);
+  //title from server.js
+  //console.log(context.query)
+  var datas;
 
-  return {single}
+
+
+
+    function check(datas) {
+        const { title, source } = context.query
+        if(source == 'Abc_News') datas = abc_News
+        console.log(datas)
+        var single = datas.filter(item => item.title == title)
+        return {single}
+    }
+  await check(datas)
 }
 
 export default Post

@@ -6,7 +6,8 @@ import data from '../data/time.json'
 import { Component } from 'react'
 
 class Index extends Component {
-  static getInitialProps() {
+  static getInitialProps(props) {
+     
       return {}
   }
 
@@ -17,7 +18,7 @@ class Index extends Component {
         <ul>
           {data.map((item, index) => (
             <li>
-              <Link key={index} as={`/news/${item.title}`} href={`/detail?title=${item.title}`}>
+              <Link key={index} as={`/time/${item.title}`} href={`/detail?title=${item.title}`}>
                 <a>{item.title}</a>
               </Link>
             </li>

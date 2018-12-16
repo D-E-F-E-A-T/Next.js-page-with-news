@@ -22,7 +22,7 @@ function fetchReq(source, path) {
 
                 while(activeObj.length > i) {
                     if(array.some(item=> {
-                        console.log(item.title, '===', activeObj[i].title)
+                    //    console.log(item.title, '===', activeObj[i].title)
                         return item.title === activeObj[i].title
                     })) {
                         console.log('NO new message')

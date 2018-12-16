@@ -19,9 +19,9 @@ cron.schedule('*/3 * * * *', function(){
 
 nextApp.prepare()
 .then(() => {
-  app.get('/news/:title', (req, res) => {
+  app.get('/:news/:title', (req, res) => {
     const actualPage = '/detail'
-    const queryParamsss = { title: req.params.title }
+    const queryParamsss = { title: req.params.title, source: req.params.news }
     nextApp.render(req, res, actualPage, queryParamsss)
   })
 
