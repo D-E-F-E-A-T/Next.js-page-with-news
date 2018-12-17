@@ -16,7 +16,7 @@ const UsaToday = (props) => (
       ))}
     </ul>
     <style jsx>{`
-       h1 {
+      h1 {
         text-align: center;
         margin-top: 50px;
         letter-spacing: 2px;
