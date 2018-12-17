@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -102,10 +102,13 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 var linkStyle = {
@@ -113,75 +116,91 @@ var linkStyle = {
 };
 
 var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "containerr"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "navbar navbar-light bg-light"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "navbar-brand",
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1736451700" + " " + "container"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     as: "/",
     href: "/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: "https://image.flaticon.com/icons/svg/21/21601.svg",
     width: "60",
     height: "60",
-    alt: ""
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "nav justify-content-center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-black-list nav-link disabled hover-main-links",
-    as: "/Abc_News",
-    href: "/Abc_News"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "ABC News"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-black-list nav-link disabled hover-main-links",
-    to: "/BBC_News"
-  }, "BBC News")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-black-list nav-link disabled hover-main-links",
-    to: "/CBC_News"
-  }, "CBC News")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "nav justify-content-center bg-nav"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list home-button",
-    to: "/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/Money_News"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "Money")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/Sport"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "Sport")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/NBC_News"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "NBC News")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/Neewsweek"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "Newsweek")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/Policy"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "Policy")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "nav-link disabled nav-white-list",
-    to: "/UsaToday"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "nav-item"
-  }, "USA Today")))));
+    alt: "",
+    className: "jsx-1736451700"
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Abc_News"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "ABC News"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Bbc_News"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "BBC News"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Cbc_News"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "CBC News"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1736451700" + " " + "navBar"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "Home"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Money_News"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "Money"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Sport"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "Sport"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/NBC_News"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "NBC News"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Newsweek"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "Newsweek"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/Policy"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "Policy"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+    className: "jsx-1736451700"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: "/UsaToday"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "jsx-1736451700"
+  }, "USA Today"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "1736451700",
+    css: ".container.jsx-1736451700{font-family:'Fira Sans',Arial,sans-serif;}nav.jsx-1736451700{background-color:#f8f9fa;}nav.jsx-1736451700,nav.jsx-1736451700 ul.jsx-1736451700{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}nav.jsx-1736451700 ul.jsx-1736451700{width:100%;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}nav.jsx-1736451700 ul.jsx-1736451700 li.jsx-1736451700{list-style-type:none;padding-right:10px;}nav.jsx-1736451700 ul.jsx-1736451700 li.jsx-1736451700 a.jsx-1736451700{-webkit-text-decoration:none;text-decoration:none;color:black;}.navBar.jsx-1736451700{background:#000000;}.navBar.jsx-1736451700 ul.jsx-1736451700{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.navBar.jsx-1736451700 ul.jsx-1736451700 li.jsx-1736451700{list-style-type:none;padding:15px;-webkit-letter:spacing:0.5px;-moz-letter:spacing:0.5px;-ms-letter:spacing:0.5px;letter:spacing:0.5px;}.navBar.jsx-1736451700 ul.jsx-1736451700 li.jsx-1736451700 a.jsx-1736451700{-webkit-text-decoration:none;text-decoration:none;color:#fff;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSZWFjdF9TRU9cXEFQSS1ORVdTLU5FWFRKUy10ZXN0MlxcY29tcG9uZW50c1xcSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlFZ0IsQUFJa0QsQUFHaEIsQUFJWixBQUlGLEFBS1UsQUFLQSxBQUtGLEFBSVIsQUFLVSxBQU1BLFdBN0JJLEFBbUJaLFFBSmYsRUFWcUIsQUFtQk4sSUFoQ2YsU0FpQ3VCLE1BbkJ2QixDQWpCQSxTQXFCYyxBQW9CRCxXQUNiLENBcEJBLFlBZkEsV0F3QkEsdUJBbkJBLDJCQXlCQSIsImZpbGUiOiJDOlxcUmVhY3RfU0VPXFxBUEktTkVXUy1ORVhUSlMtdGVzdDJcXGNvbXBvbmVudHNcXEhlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuXHJcbmNvbnN0IGxpbmtTdHlsZSA9IHtcclxuICBtYXJnaW5SaWdodDogMVxyXG59XHJcblxyXG5jb25zdCBIZWFkZXIgPSAoKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuICA8bmF2PlxyXG4gICAgPExpbmsgYXM9e2AvYH0gaHJlZj17YC9gfT5cclxuICAgICAgPGE+XHJcbiAgICAgICAgPGltZyBzcmM9e2BodHRwczovL2ltYWdlLmZsYXRpY29uLmNvbS9pY29ucy9zdmcvMjEvMjE2MDEuc3ZnYH0gd2lkdGg9XCI2MFwiIGhlaWdodD1cIjYwXCIgYWx0PVwiXCIgLz5cclxuICAgICAgPC9hPlxyXG4gICAgPC9MaW5rPlxyXG4gICAgPHVsPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxMaW5rIGFzPXtgL0FiY19OZXdzYH0+PGE+QUJDIE5ld3M8L2E+PC9MaW5rPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgIDxsaT5cclxuICAgICAgICA8TGluayBhcz17YC9CYmNfTmV3c2B9PjxhPkJCQyBOZXdzPC9hPjwvTGluaz5cclxuICAgICAgPC9saT5cclxuICAgICAgPGxpPlxyXG4gICAgICAgIDxMaW5rIGFzPXtgL0NiY19OZXdzYH0+PGE+Q0JDIE5ld3M8L2E+PC9MaW5rPlxyXG4gICAgICA8L2xpPlxyXG4gICAgPC91bD5cclxuICAgIDwvbmF2PlxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJuYXZCYXJcIj5cclxuICAgICAgPHVsPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxMaW5rIGFzPXtgL2B9PlxyXG4gICAgICAgICAgICA8YT5Ib21lPC9hPlxyXG4gICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPExpbmsgYXM9XCIvTW9uZXlfTmV3c1wiPlxyXG4gICAgICAgICAgICA8YT5Nb25leTwvYT5cclxuICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICA8L2xpPlxyXG4gICAgICAgIDxsaT5cclxuICAgICAgICAgIDxMaW5rIGFzPVwiL1Nwb3J0XCI+XHJcbiAgICAgICAgICAgIDxhPlNwb3J0PC9hPlxyXG4gICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPExpbmsgYXM9XCIvTkJDX05ld3NcIj5cclxuICAgICAgICAgICAgPGE+TkJDIE5ld3M8L2E+XHJcbiAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgPC9saT5cclxuICAgICAgICA8bGk+XHJcbiAgICAgICAgICA8TGluayBhcz1cIi9OZXdzd2Vla1wiPlxyXG4gICAgICAgICAgICA8YSA+TmV3c3dlZWs8L2E+XHJcbiAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgPC9saT5cclxuICAgICAgICA8bGk+XHJcbiAgICAgICAgICA8TGluayBhcz1cIi9Qb2xpY3lcIj5cclxuICAgICAgICAgICAgPGE+UG9saWN5PC9hPlxyXG4gICAgICAgICAgPC9MaW5rPlxyXG4gICAgICAgIDwvbGk+XHJcbiAgICAgICAgPGxpPlxyXG4gICAgICAgICAgPExpbmsgYXM9XCIvVXNhVG9kYXlcIj5cclxuICAgICAgICAgICAgPGEgPlVTQSBUb2RheTwvYT5cclxuICAgICAgICAgIDwvTGluaz5cclxuICAgICAgICA8L2xpPlxyXG4gICAgICA8L3VsPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUganN4PntgXHJcblxyXG4gICAgICAuY29udGFpbmVyIHtcclxuICAgICAgICBmb250LWZhbWlseTogJ0ZpcmEgU2FucycsQXJpYWwsc2Fucy1zZXJpZjtcclxuICAgICAgfVxyXG4gICAgICBuYXYge1xyXG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmOGY5ZmE7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIG5hdiwgbmF2IHVsIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBuYXYgdWwge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIG5hdiB1bCBsaSB7XHJcbiAgICAgICAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDEwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIG5hdiB1bCBsaSBhIHtcclxuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubmF2QmFyIHtcclxuICAgICAgICBiYWNrZ3JvdW5kOiAjMDAwMDAwO1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubmF2QmFyIHVsIHtcclxuICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICAubmF2QmFyIHVsIGxpIHtcclxuICAgICAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbiAgICAgICAgcGFkZGluZzogMTVweDtcclxuICAgICAgICBsZXR0ZXI6c3BhY2luZzogMC41cHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIC5uYXZCYXIgdWwgbGkgYSB7XHJcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgIGNvbG9yOiAjZmZmO1xyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcblxyXG4pXHJcblxyXG5leHBvcnQgZGVmYXVsdCBIZWFkZXJcclxuIl19 */\n/*@ sourceURL=C:\\React_SEO\\API-NEWS-NEXTJS-test2\\components\\Header.js */"
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -197,9 +216,12 @@ var Header = function Header() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+
 
 
 var layoutStyle = {
@@ -209,11 +231,15 @@ var layoutStyle = {
 };
 
 var Layout = function Layout(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: layoutStyle
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container-fluid"
-  }, props.children));
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    style: layoutStyle,
+    className: "jsx-4171249124"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-4171249124" + " " + "container-fluid"
+  }, props.children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "4171249124",
+    css: ".container-fluid.jsx-4171249124{background-color:#fdfdfd;font-family:'Fira Sans',Arial,sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSZWFjdF9TRU9cXEFQSS1ORVdTLU5FWFRKUy10ZXN0MlxcY29tcG9uZW50c1xcTXlMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2dCLEFBR2tDLHlCQUNnQix5Q0FDM0MiLCJmaWxlIjoiQzpcXFJlYWN0X1NFT1xcQVBJLU5FV1MtTkVYVEpTLXRlc3QyXFxjb21wb25lbnRzXFxNeUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXHJcblxyXG5jb25zdCBsYXlvdXRTdHlsZSA9IHtcclxuICBtYXJnaW46IDIwLFxyXG4gIHBhZGRpbmc6IDIwLFxyXG4gIGJvcmRlcjogJzFweCBzb2xpZCAjREREJ1xyXG59XHJcblxyXG5jb25zdCBMYXlvdXQgPSAocHJvcHMpID0+IChcclxuICA8ZGl2IHN0eWxlPXtsYXlvdXRTdHlsZX0+XHJcbiAgICA8SGVhZGVyIC8+XHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lci1mbHVpZFwiPlxyXG4gICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICA8L2Rpdj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLmNvbnRhaW5lci1mbHVpZCB7XHJcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZkZmRmZDtcclxuICAgICAgICBmb250LWZhbWlseTogJ0ZpcmEgU2FucycsQXJpYWwsc2Fucy1zZXJpZjtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG5cclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0XHJcbiJdfQ== */\n/*@ sourceURL=C:\\React_SEO\\API-NEWS-NEXTJS-test2\\components\\MyLayout.js */"
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -242,15 +268,18 @@ module.exports = [{"source":{"id":"abc-news","name":"ABC News"},"author":"The As
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data/Abc_News.json */ "./data/Abc_News.json");
-var _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/Abc_News.json */ "./data/Abc_News.json", 1);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../data/Abc_News.json */ "./data/Abc_News.json");
+var _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/Abc_News.json */ "./data/Abc_News.json", 1);
+
 
 
 
@@ -264,12 +293,23 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 var Abc = function Abc(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "ABC template"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, props.data.map(function (item) {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-      as: "/Abc_News/".concat(item.title),
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
+    className: "jsx-2959285834"
+  }, "ABC template"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+    className: "jsx-2959285834"
+  }, props.data.map(function (item) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("li", {
+      className: "jsx-2959285834"
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      as: "/Abc_News/".concat(item.title.replace(/ /g, "_")),
       href: "/detail?title=".concat(item.title)
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", null, item.title)));
-  })));
+    }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+      className: "jsx-2959285834"
+    }, item.title)));
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    styleId: "2959285834",
+    css: "h1.jsx-2959285834{text-align:center;margin-top:50px;-webkit-letter-spacing:2px;-moz-letter-spacing:2px;-ms-letter-spacing:2px;letter-spacing:2px;font-weight:800;}ul.jsx-2959285834 li.jsx-2959285834 a.jsx-2959285834{line-height:2;-webkit-text-decoration:none;text-decoration:none;font-size:21px;font-weight:500;color:black;padding-left:15px;}ul.jsx-2959285834 li.jsx-2959285834:hover{background:#f7f7f7;padding:1px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxSZWFjdF9TRU9cXEFQSS1ORVdTLU5FWFRKUy10ZXN0MlxccGFnZXNcXEFiY19OZXdzLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlCZ0IsQUFHMkIsQUFNSixBQVFLLGNBUEUsSUFOTCxDQWNKLFlBQ2QsR0FkcUIsOEJBTUosZUFDQyxnQkFDSixZQUNNLGtCQUNwQixFQVRrQixnQkFDbEIiLCJmaWxlIjoiQzpcXFJlYWN0X1NFT1xcQVBJLU5FV1MtTkVYVEpTLXRlc3QyXFxwYWdlc1xcQWJjX05ld3MuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQuanMnXHJcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuaW1wb3J0IGZldGNoIGZyb20gJ2lzb21vcnBoaWMtdW5mZXRjaCdcclxuaW1wb3J0IGRhdGEgZnJvbSAnLi4vZGF0YS9BYmNfTmV3cy5qc29uJ1xyXG5cclxuY29uc3QgQWJjID0gKHByb3BzKSA9PiAoXHJcbiAgPExheW91dD5cclxuICAgIDxoMT5BQkMgdGVtcGxhdGU8L2gxPlxyXG4gICAgPHVsPlxyXG4gICAgICB7cHJvcHMuZGF0YS5tYXAoKGl0ZW0pID0+IChcclxuICAgICAgICA8bGk+XHJcbiAgICAgICAgICA8TGluayBhcz17YC9BYmNfTmV3cy8ke2l0ZW0udGl0bGUucmVwbGFjZSgvIC9nLCBcIl9cIil9YH0gaHJlZj17YC9kZXRhaWw/dGl0bGU9JHtpdGVtLnRpdGxlfWB9PlxyXG4gICAgICAgICAgICA8YT57aXRlbS50aXRsZX08L2E+XHJcbiAgICAgICAgICA8L0xpbms+XHJcbiAgICAgICAgPC9saT5cclxuICAgICAgKSl9XHJcbiAgICA8L3VsPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgaDEge1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICBtYXJnaW4tdG9wOiA1MHB4O1xyXG4gICAgICAgIGxldHRlci1zcGFjaW5nOiAycHg7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IDgwMDtcclxuICAgICAgfVxyXG4gICAgICB1bCBsaSBhIHtcclxuICAgICAgICBsaW5lLWhlaWdodDogMjtcclxuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgZm9udC1zaXplOiAyMXB4O1xyXG4gICAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIHBhZGRpbmctbGVmdDogMTVweDtcclxuICAgICAgfVxyXG4gICAgICB1bCBsaTpob3ZlciB7XHJcbiAgICAgICAgYmFja2dyb3VuZDogI2Y3ZjdmNztcclxuICAgICAgICBwYWRkaW5nOiAxcHg7XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L0xheW91dD5cclxuKVxyXG5cclxuQWJjLmdldEluaXRpYWxQcm9wcyA9IGFzeW5jIGZ1bmN0aW9uKCkge1xyXG4gIHJldHVybiB7XHJcbiAgICBkYXRhXHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBBYmNcclxuIl19 */\n/*@ sourceURL=C:\\React_SEO\\API-NEWS-NEXTJS-test2\\pages\\Abc_News.js */"
+  }));
 };
 
 Abc.getInitialProps =
@@ -277,21 +317,15 @@ Abc.getInitialProps =
 _asyncToGenerator(
 /*#__PURE__*/
 _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
-  var x;
   return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          //console.log(data)
-          x = {
-            name: 'tobiasz' //test
-
-          };
           return _context.abrupt("return", {
-            data: _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_5__
+            data: _data_Abc_News_json__WEBPACK_IMPORTED_MODULE_6__
           });
 
-        case 2:
+        case 1:
         case "end":
           return _context.stop();
       }
@@ -302,7 +336,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 4:
+/***/ 7:
 /*!*********************************!*\
   !*** multi ./pages/Abc_News.js ***!
   \*********************************/
@@ -355,6 +389,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
